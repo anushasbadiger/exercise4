@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE order SYSTEM "order.dtd">
+<order xmlns:ord="http://www.example.com/order">
+  <ord:customer_name>&customer;</ord:customer_name>
+  <ord:order_id>&order_id;</ord:order_id>
+  <ord:restaurant>&restaurant;</ord:restaurant>
+  <ord:items>
+    <ord:item>Pizza</ord:item>
+    <ord:item>Burger</ord:item>
+  </ord:items>
+  <ord:total_price>&total;</ord:total_price>
+  <ord:delivery_address>&address;</ord:delivery_address>
+  <ord:delivery_time>30</ord:delivery_time>
+</order>

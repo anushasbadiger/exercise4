@@ -1,0 +1,9 @@
+<!ELEMENT order (customer_name, order_id, restaurant, items, total_price, delivery_address, delivery_time)>
+<!ELEMENT customer_name (#PCDATA)>
+<!ELEMENT order_id (#PCDATA)>
+<!ELEMENT restaurant (#PCDATA)>
+<!ELEMENT items (item+)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT total_price (#PCDATA)>
+<!ELEMENT delivery_address (#PCDATA)>
+<!ELEMENT delivery_time (#PCDATA)>
